@@ -27,8 +27,38 @@ you can check status of your repo by using:
 git status
 ```
 
-First you donnt see any
+You can commit 2 your repo by using:
 ```
 git commit -m "your comment for commit here"
 ```
-<-m> is 
+
+If you add new file after you init project, git will not add that file to index. You need to add file first.
+```
+git add {filename}
+
+//for example
+git add README.txt //add README.txt to index
+git add *.txt //add all files that have ".txt" to index
+git add * //add all files(not recommends)
+```
+
+you can use `git log` to check commit logs
+
+## Link to github
+First, you need to create github account and create new repo, then you copy link of your repo. Then in local repo use this commands.
+```
+git branch -M main
+git remote add origin {repo link}
+```
+
+Then you use this commands to upload repo to github
+```
+git push -u origin main //first time only
+git push //use this commands next times
+```
+
+**IMPORTANT: You need to `commit` latest version of your project to local repo before `push` to github.**
+
+Then go to your github repo and check your repo are up to date.
+
+(END)
