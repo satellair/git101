@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "expand",
+    "editor.fontWeight": "400",
+    "editor.tabSize": 2
+}
