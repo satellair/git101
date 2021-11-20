@@ -22,12 +22,12 @@ git config --global user.name "username"
 
 then you can use `git config --list` to check your settings.
 ## First commit
-you can check status of your repo by using:
+You can check status of your repo by using:
 ```
 git status
 ```
 
-You can commit 2 your repo by using:
+If you want to commit to local repo, using this command:
 ```
 git commit -m "your comment for commit here"
 ```
@@ -42,7 +42,8 @@ git add *.txt //add all files that have ".txt" to index
 git add * //add all files(not recommends)
 ```
 
-you can use `git log` to check commit logs
+Use `git log` to check commit logs.
+Use `git ls-files` to check files in the index
 
 ## Link to github
 First, you need to create github account and create new repo, then you copy link of your repo. Then in local repo use this commands.
@@ -51,7 +52,7 @@ git branch -M main
 git remote add origin {repo link}
 ```
 
-Then you use this commands to upload repo to github
+Then you use this commands to upload repo to github.
 ```
 git push -u origin main //first time only
 git push //use this commands next times
