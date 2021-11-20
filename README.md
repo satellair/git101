@@ -65,15 +65,4 @@ Then go to your github repo and check your repo are up to date.
 
 (END)
 
------
-vscode custom settings(add in .vscode/settings.json)
-saved for using later
-```
-{
-  "files.autoSave": "afterDelay",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.cursorBlinking": "expand",
-  "editor.fontWeight": "400"
-}
-```
+---
