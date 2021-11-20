@@ -43,7 +43,8 @@ git add * //add all files(not recommends)
 ```
 
 Use `git log` to check commit logs.
-Use `git ls-files` to check files in the index
+
+Use `git ls-files` to check files in the index.
 
 ## Link to github
 First, you need to create github account and create new repo, then you copy link of your repo. Then in local repo use this commands.
